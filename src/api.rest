@@ -1,0 +1,15 @@
+
+
+GET http://localhost:3000/api/employees
+
+POST http://localhost:3000/api/clientes HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "Joe McMillan",
+    "rfc": "Digital Marketing Manager",
+    "gmail": "California",
+    "telefono": "asdasd",
+    "cp": "asdasd",
+    "direccion": "asdasd"
+}
